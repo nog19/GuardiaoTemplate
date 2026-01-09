@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="src/css/variables.css">
+    <link rel="stylesheet" href="src/css/styles.css">
+
+    <!-- Font Awesome -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+    />
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+
+    <title>Empresa de Segurança</title>
+</head>
+
+<body>
+
+<!-- =========================  HEADER / NAVBAR -->
+<header class="header">
+    <nav class="navbar">
+
+        <img src="src/images/seg.png" class="logo" alt="Logo da empresa">
+
+        <ul class="nav-links">
+            <li><a href="#services">Serviços</a></li>
+            <li><a href="#team">Equipe</a></li>
+            <li><a href="#fleet">Frota</a></li>
+        </ul>
+
+        <div class="nav-actions">
+            <button class="theme-btn" id="theme-toggle" aria-label="Alternar tema">
+                <i id="theme-icon" class="fas fa-moon"></i>
+            </button>
+
+            <button class="menu-btn" id="menu-open" aria-label="Abrir menu">
+               <i class="fas fa-bars"></i>
+            </button>
+
+            <a href="tel:+559999999" class="btn-primary desktop-only">
+                <i class="fa fa-phone"></i>
+                <span>Ligar</span>
+            </a>
+        </div>
+    </nav>
+</header>
+
+<!-- ========================= MENU MOBILE -->
+<aside class="mobile-menu" id="mobile-menu">
+    <button class="menu-close" id="menu-close">
+        <i class="fas fa-times"></i>
+    </button>
+
+    <nav class="mobile-nav">
+        <a href="#services">Serviços</a>
+        <a href="#team">Equipe</a>
+        <a href="#fleet">Frota</a>
+
+        <a href="tel:+559999999" class="btn-primary mobile-cta">
+            <i class="fa fa-phone"></i>
+            Ligar agora
+        </a>
+    </nav>
+</aside>
+
+<div class="menu-overlay" id="menu-overlay"></div>
+
+<!-- =========================  HERO -->
+<section class="hero">
+    <img src="src/images/carro2.jpeg" alt="Viatura de segurança em operação">
+
+    <div class="hero-content" data-aos="fade-up">
+        <h1>Protegendo o que é mais importante</h1>
+        <p>Segurança patrimonial, rondas e resposta rápida 24h</p>
+        <a href="#services" class="btn-primary">
+            Conheça nossos serviços
+        </a>
+    </div>
+</section>
+<!-- ========================= SERVIÇOS – PREMIUM -->
+<section id="services" class="services">
+    <div class="services-container">
+
+        <header class="services-header" data-aos="fade-up">
+            <span class="services-eyebrow">O que fazemos</span>
+            <h2>Segurança inteligente para ambientes críticos</h2>
+            <p>
+                Atuamos com soluções integradas de segurança, combinando
+                presença física, tecnologia e resposta rápida.
+            </p>
+        </header>
+
+        <div class="services-grid">
+
+            <article class="service-card" data-aos="fade-up">
+                <div class="service-icon">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <h3>Segurança Patrimonial</h3>
+                <p>
+                    Proteção preventiva e ostensiva para empresas,
+                    condomínios e residências.
+                </p>
+            </article>
+
+            <article class="service-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="service-icon">
+                    <i class="fas fa-car"></i>
+                </div>
+                <h3>Rondas Ostensivas</h3>
+                <p>
+                    Patrulhamento estratégico com viaturas próprias
+                    e rotas inteligentes.
+                </p>
+            </article>
+
+            <article class="service-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="service-icon">
+                    <i class="fas fa-video"></i>
+                </div>
+                <h3>Monitoramento 24h</h3>
+                <p>
+                    Central ativa com resposta imediata a ocorrências.
+                </p>
+            </article>
+
+        </div>
+    </div>
+</section>
+
+<!-- =========================  POR QUE ESCOLHER -->
+<section class="why-us">
+    <div class="why-us-container">
+
+        <header class="why-us-header" data-aos="fade-up">
+            <span class="why-us-eyebrow">Por que escolher</span>
+            <h2>Segurança levada a sério, sem improvisos</h2>
+            <p>
+                Operamos com padrão corporativo, processos rigorosos
+                e equipes preparadas para cenários críticos.
+            </p>
+        </header>
+
+        <div class="why-us-grid">
+
+            <div class="why-us-item" data-aos="fade-up">
+                <i class="fas fa-user-shield"></i>
+                <h3>Equipe Especializada</h3>
+                <p>
+                    Profissionais treinados, certificados e
+                    constantemente avaliados.
+                </p>
+            </div>
+
+            <div class="why-us-item" data-aos="fade-up" data-aos-delay="100">
+                <i class="fas fa-clock"></i>
+                <h3>Resposta Rápida 24h</h3>
+                <p>
+                    Monitoramento contínuo com protocolos
+                    de resposta imediata.
+                </p>
+            </div>
+
+            <div class="why-us-item" data-aos="fade-up" data-aos-delay="200">
+                <i class="fas fa-map-marked-alt"></i>
+                <h3>Atuação Estratégica</h3>
+                <p>
+                    Planejamento inteligente para prevenção
+                    ativa de ocorrências.
+                </p>
+            </div>
+
+            <div class="why-us-item" data-aos="fade-up" data-aos-delay="300">
+                <i class="fas fa-shield-alt"></i>
+                <h3>Confiabilidade Total</h3>
+                <p>
+                    Compromisso absoluto com a segurança
+                    do seu patrimônio.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- =========================   EQUIPE -->
+<section id="team" class="section section-alt">
+    <h2 data-aos="fade-up">Nossa Equipe</h2>
+
+    <div class="gallery">
+        <img src="src/images/segurança.jpg" alt="Equipe 1">
+        <img src="src/images/segurança1.jpg" alt="Equipe 2">
+        <img src="src/images/segurança2.jpg" alt="Equipe 3">
+    </div>
+
+    <p class="section-text">
+        Profissionais treinados, uniformizados e certificados.
+    </p>
+</section>
+
+<!-- =========================   FROTA -->
+<section id="fleet" class="section">
+    <h2 data-aos="fade-up">Nossa Frota</h2>
+
+    <div class="gallery fleet-gallery">
+        <img src="src/images/carro1.jpeg" alt="Viatura de segurança lateral">
+        <img src="src/images/carro.jpeg" alt="Viatura de segurança traseira">
+        <img src="src/images/carro2.jpeg" alt="Viatura de segurança frontal">
+    </div>
+
+    <p class="section-text">
+        Viaturas padronizadas, identificadas e prontas para resposta rápida.
+    </p>
+</section>
+
+<!-- =========================   CTA -->
+<section class="cta" data-aos="fade-up">
+    <h2>Precisa de segurança agora?</h2>
+    <p>Fale com nossa equipe imediatamente.</p>
+
+    <a href="tel:+55999999999" class="btn-primary">
+        <i class="fa fa-phone"></i>
+        Ligar agora
+    </a>
+</section>
+
+<footer class="footer">
+    <p>© 2026 Empresa de Segurança</p>
+</footer>
+
+<a href="https://wa.me/5511965633191" class="whatsapp-float" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+</a>
+
+<!-- JS -->
+<script src="src/js/theme.js" defer></script>
+<script src="src/js/menu.js" defer></script>
+<script src="src/js/header.js" defer></script>
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+    AOS.init({ duration: 800, once: true });
+</script>
+
+</body>
+</html>
